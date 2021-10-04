@@ -3,7 +3,9 @@
     --border:#333;
     --background: #f6f6f6;
     --btn-colour:#eee;
+    --btn-hover: #ddd;
     --screen:#eee
+    --font: #222;
 }
 
 body {
@@ -67,3 +69,7 @@ font-size: 40px;
     background-color: var('--btn-color');
     font-size: 20px;
 }
+
+.btn:hover {
+    background-color: var(--btn-hover);
+  }
